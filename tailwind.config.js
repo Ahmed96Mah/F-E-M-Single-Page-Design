@@ -103,6 +103,10 @@ module.exports = {
       padding: {
         19: '76px',
       },
+      margin: {
+        34: '136px',
+        89: '356px',
+      }
     },
   },
   plugins: [],
