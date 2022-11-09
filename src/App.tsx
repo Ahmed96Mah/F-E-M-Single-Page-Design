@@ -109,6 +109,7 @@ function App() {
         <div
           id="imageDisplay"
           className="grid grid-flow-col scroll-auto overflow-y-auto overscroll-x-contain gap-3 md:gap-7 snap-mandatory snap-x"
+          tabIndex={0}
           ref={imageDisplay}
         >
           <img
