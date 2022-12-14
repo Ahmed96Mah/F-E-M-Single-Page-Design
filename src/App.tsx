@@ -161,7 +161,7 @@ function App() {
           </div>
         </div>
         <div className="mx-4 flex flex-col items-center bg-black px-6 py-12 rounded-lg md:pt-14 md:pb-16 md:mx-10 xl:mx-40 md:px-24 xl:flex-row xl:justify-between">
-          <div className='flex flex-col items-center xl:items-start xl:w-7/12'>
+          <div className="flex flex-col items-center xl:items-start xl:w-7/12">
             <p className="text-off-white text-3xl-mob text-center md:text-3xl-dsk xl:text-left xl:text-4xl-dsk">
               Book a call with me
             </p>
@@ -179,14 +179,37 @@ function App() {
           </a>
         </div>
       </main>
-      <footer className="mx-4 mb-4 pt-10 flex flex-row flex-nowrap justify-between items-center md:pt-14 md:mx-10 xl:mx-40">
-        <img src={logo} alt="" className="w-12 md:w-16" />
-        <a
-          href="https://www.google.com"
-          className="text-off-white text-sm-mob bg-black hover:bg-soft-purple py-2 px-7 rounded-full md:py-4 md:px-12 md:text-sm-dsk"
-        >
-          Free Consultation
-        </a>
+      <footer className="mx-4 mb-4 pt-10 flex flex-col flex-nowrap justify-between items-center md:pt-14 md:mx-10 xl:mx-40">
+        <div className="flex flex-row flex-nowrap justify-between items-center w-full">
+          <img src={logo} alt="" className="w-12 md:w-16" />
+          <a
+            href="https://www.google.com"
+            className="text-off-white text-sm-mob bg-black hover:bg-soft-purple py-2 px-7 rounded-full md:py-4 md:px-12 md:text-sm-dsk"
+          >
+            Free Consultation
+          </a>
+        </div>
+        <p className='text-center mt-8'>
+          Challenge by
+          <a
+            className='text-soft-purple ml-1 hover:text-purple-700'
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by
+          <a
+            className='text-soft-purple ml-1 hover:text-purple-700'
+            href="https://www.frontendmentor.io/profile/Ahmed96Mah"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ahmed Mahmoud Abdalwahab
+          </a>
+          .
+        </p>
       </footer>
     </div>
   );
