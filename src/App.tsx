@@ -189,10 +189,10 @@ function App() {
             Free Consultation
           </a>
         </div>
-        <p className='text-center mt-8'>
+        <p className="text-center mt-8">
           Challenge by
           <a
-            className='text-soft-purple ml-1 hover:text-purple-700'
+            className="text-soft-purple ml-1 hover:text-purple-700"
             href="https://www.frontendmentor.io?ref=challenge"
             target="_blank"
             rel="noreferrer"
@@ -201,7 +201,7 @@ function App() {
           </a>
           . Coded by
           <a
-            className='text-soft-purple ml-1 hover:text-purple-700'
+            className="text-soft-purple ml-1 hover:text-purple-700"
             href="https://www.frontendmentor.io/profile/Ahmed96Mah"
             target="_blank"
             rel="noreferrer"
