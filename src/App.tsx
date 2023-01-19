@@ -108,42 +108,52 @@ function App() {
         </p>
         <div
           id="imageDisplay"
-          className="grid grid-flow-col scroll-auto overflow-y-auto overscroll-x-contain gap-3 md:gap-7 snap-mandatory snap-x"
+          className="grid grid-flow-col scroll-auto overflow-y-auto overscroll-x-contain gap-72 md:gap-[580px] snap-mandatory snap-x"
           tabIndex={0}
           ref={imageDisplay}
         >
-          <img
-            src={imgSlide1}
-            alt=""
-            className="rounded-xl snap-center min-w-fit h-44 md:h-90"
-          />
-          <img
-            src={imgSlide2}
-            alt=""
-            className="rounded-xl snap-center min-w-fit h-44 md:h-90"
-          />
-          <img
-            src={imgSlide3}
-            alt=""
-            className="rounded-xl snap-center min-w-fit h-44 md:h-90"
-          />
-          <img
-            src={imgSlide4}
-            alt=""
-            className="rounded-xl snap-center min-w-fit h-44 md:h-90"
-          />
-          <img
-            src={imgSlide5}
-            alt=""
-            className="rounded-xl snap-center min-w-fit h-44 md:h-90"
-          />
+          <a href='https://www.google.com' className=''>
+            <img
+              src={imgSlide1}
+              alt=""
+              className="rounded-xl snap-center min-w-fit h-44 md:h-90"
+            />
+          </a>
+          <a href='https://www.google.com' className=''>
+            <img
+              src={imgSlide2}
+              alt=""
+              className="rounded-xl snap-center min-w-fit h-44 md:h-90"
+            />
+          </a>
+          <a href='https://www.google.com' className=''>
+            <img
+              src={imgSlide3}
+              alt=""
+              className="rounded-xl snap-center min-w-fit h-44 md:h-90"
+            />
+          </a>
+          <a href='https://www.google.com' className=''>
+            <img
+              src={imgSlide4}
+              alt=""
+              className="rounded-xl snap-center min-w-fit h-44 md:h-90"
+            />
+          </a>
+          <a href='https://www.google.com' className=''>
+            <img
+              src={imgSlide5}
+              alt=""
+              className="rounded-xl snap-center min-w-fit h-44 md:h-90"
+            />
+          </a>
         </div>
         <div className="mx-4 flex flex-row justify-center flex-nowrap mt-8 mb-24 md:mt-14 md:mb-28">
           <div
             className="bg-black hover:bg-soft-purple hover:cursor-pointer p-6 rounded-full mr-4"
             onClick={() => {
               imageDisplay.current!.scrollBy({
-                left: -100,
+                left: -200,
                 behavior: 'smooth',
               });
             }}
